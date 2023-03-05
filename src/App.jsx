@@ -27,8 +27,8 @@ export default function App() {
 
       <main >
         <section className="tasks-header">
-          <input type="text" onChange={(e) => setSearchTasks(e.target.value)} />
-          <button className="task-header-buttons" onClick={() => setIsModal(true)}>
+          <input type="text" onChange={(e) => setSearchTasks(e.target.value)} title="Pesquisar task pelo nome" aria-label="Pesquisar task"  />
+          <button className="task-header-buttons" onClick={() => setIsModal(true)} title="Adicionar task" aria-label="Adicionar taks" >
             <Icon.PlusCircle/>
           </button>
         </section>
