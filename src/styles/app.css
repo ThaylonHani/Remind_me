@@ -1,0 +1,58 @@
+main{
+    background-color: var(--Poseidon-2-rgba);
+    border: 2px solid var(--Poseidon-4-rgba);
+    color: var(--Poseidon-4-rgba);
+    text-align: center;
+    margin: 2rem 0;
+    width: 50%; 
+    border-radius: 0.4rem;
+    
+    border-top-left-radius: 3.5rem ;
+    border-top-right-radius: 3.5rem ;
+}
+.tasks-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 4px solid var(--Poseidon-3-rgba);
+    border-top-left-radius: 3.5rem ;
+    border-top-right-radius: 3.5rem ;
+    background-color: var(--Poseidon-1-rgba);
+    padding: 1.4rem;
+}
+.tasks-header input{
+    color:var(--Poseidon-1-rgba) ;
+    text-align: center;
+    font-size:1rem;
+    font-weight: bold;
+    border: 2px solid var(--Poseidon-3-rgba);
+    background-color: var(--Poseidon-2-rgba);
+    width: 70%;
+    border-radius: 0.4rem;
+    padding: 0.3rem;
+}
+.tasks-header input::selection{
+    background-color: var(--Poseidon-3-rgba);
+}
+.task-header-buttons {
+    width: 20%;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 0;
+    color: var(--Poseidon-4-rgba);
+    padding: 0.3rem;
+    cursor: pointer;
+}
+@keyframes appear {
+    from { 
+        opacity: 0;
+    }
+     to{
+        opacity: 1;
+     }
+}
+@keyframes disappear {
+     to{
+        opacity: 0;
+     }
+}

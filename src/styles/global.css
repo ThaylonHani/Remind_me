@@ -1,0 +1,29 @@
+:root{
+    
+--Poseidon-1-rgba :  #002030; 
+--Poseidon-2-rgba :  #1F96C7; 
+--Poseidon-3-rgba :  #44c4af; 
+--Poseidon-4-rgba :  #99eaa2; 
+--Poseidon-5-rgba :  #d9fcba; 
+--background-modal :  rgba(31, 150, 199,0.2); 
+
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    user-select: none;
+    
+}
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+} 
+
+body{
+    max-width: 100vw;
+    max-height: 100vh;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--Poseidon-1-rgba);
+}

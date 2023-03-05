@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    align-self: center;
+    margin-top: 1rem;
+    padding:1rem;
+    border-radius:2rem;
+    justify-content: center;
+    width: 60%;
+    color: var(--Poseidon-5-rgba);
+    border-bottom:2px solid var(--Poseidon-2-rgba) ;
+
+}

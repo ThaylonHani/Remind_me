@@ -1,0 +1,42 @@
+.task,.task-complete {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+    padding: 1.2rem;
+    width: 100%;
+    color: var(--Poseidon-2-rgba);
+    border: 2px solid var(--Poseidon-4-rgba);
+    border-radius:1rem;
+    background-color: var(--Poseidon-1-rgba);
+}
+h3{
+    cursor: pointer;
+    width: 70%;
+    text-align: left;
+}
+.task-complete{
+    background-color: var(--Poseidon-3-rgba);
+    opacity: 0.67;
+    color: var(--Poseidon-1-rgba);
+}
+.task-button{
+    display: flex;
+    gap:1rem;
+    padding: 0.3rem;
+}
+.btn-task,.btn-delete,.btn-task-complete{
+    background-color: transparent;
+    border:none;
+    font-size: 1.4rem;
+    color: var(--Poseidon-2-rgba);
+    cursor: pointer;
+}
+
+
+.btn-delete{
+    color: var(--Poseidon-5-rgba)
+}
+.btn-task-complete{
+    color: var(--Poseidon-1-rgba)
+}

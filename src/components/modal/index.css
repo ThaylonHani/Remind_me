@@ -1,0 +1,102 @@
+@keyframes appear {
+    from { 
+        opacity: 0;
+    }
+     to{
+        opacity: 1;
+     }
+}
+@keyframes disappear {
+     to{
+        opacity: 0;
+     }
+}
+
+
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    width: 90vw;
+    height: 25.7rem;
+    background-color: var(--Poseidon-2-rgba) ;
+    border-radius: 1.5rem;
+    gap: 2rem;
+    animation: appear 0.2s forwards linear;
+}
+
+
+label{
+    font-size:1.5rem
+}
+
+.modal-section{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#nameModal{
+    padding:1rem;
+    width:70%;
+    text-align: center;
+    font-size:1.2rem;
+    border:none;
+    border-radius: 0.5rem;
+    color: var(--Poseidon-2-rgba);
+    background-color: var(--Poseidon-1-rgba);
+}
+
+#descriptionModal{
+    text-align: center;
+    padding:1rem;
+    resize: none;
+    font-size:1.2rem;
+    width: 95%;
+    height: 60%;
+    max-width: 95%;
+    max-height: 90%;
+    border:none;
+    border-radius: 0.5rem;
+    font-weight: bolda;
+    color: var(--Poseidon-2-rgba);
+    background-color: var(--Poseidon-1-rgba);
+}
+  
+.modal-section-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.modal-section-buttons button {
+    padding: 0.6rem;
+    font-size: 1.3rem;
+    border-radius:0.5rem ;
+    width:40%;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cancel-btn{
+    border: 2px solid var(--Poseidon-1-rgba);
+    background-color: var(--Poseidon-2-rgba);
+    color: var(--Poseidon-1-rgba);
+    font-style: italic;
+}
+.add-btn{
+    border: 2px solid var(--Poseidon-5-rgba);
+    background-color: var(--Poseidon-1-rgba);
+    color: var(--Poseidon-4-rgba);
+
+}
+.add-btn:disabled{
+    opacity: 0.5;
+    
+}
